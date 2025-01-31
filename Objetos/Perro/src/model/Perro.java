@@ -6,7 +6,7 @@ public class Perro {
     private String raza;
     private int edad;
     private float peso;
-    private int nivelEnergia = 0;
+    private int nivelEnergia = 100;
     private int nivelHambre = 0;
     //Fin variables
 
@@ -31,5 +31,7 @@ public class Perro {
      */
     public void ladrar(){
         System.out.println("Guau guau");
+        nivelEnergia -= 10;
     }
+
 }
