@@ -6,8 +6,8 @@ public class Perro {
     private String raza;
     private int edad;
     private float peso;
-    private int nivelEnergia;
-    private int nivelHambre;
+    private int nivelEnergia = 0;
+    private int nivelHambre = 0;
     //Fin variables
 
     public Perro(String nombre, String raza, int edad, float peso, int nivelEnergia, int nivelHambre) {
