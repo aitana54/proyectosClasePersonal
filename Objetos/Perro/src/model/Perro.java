@@ -18,4 +18,8 @@ public class Perro {
         this.nivelEnergia = nivelEnergia;
         this.nivelHambre = nivelHambre;
     }
+
+    public void dormir() {
+
+    }
 }
