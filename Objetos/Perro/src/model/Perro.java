@@ -58,4 +58,14 @@ public class Perro {
         nivelEnergia -= 10;
     }
 
+    /**
+     * Función pasear
+     */
+    public void pasear(){
+        nivelEnergia -= 70;
+    }
+
+
+
+
 }
