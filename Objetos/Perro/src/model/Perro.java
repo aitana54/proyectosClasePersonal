@@ -19,8 +19,17 @@ public class Perro {
         this.nivelHambre = nivelHambre;
     }
 
-    /*Función para dormir, aumenta nivel energia*/
+    /**
+     * Función para dormir, aumenta nivel energia
+     */
     public void dormir() {
         nivelEnergia += 50;
+    }
+
+    /**
+     * Función ladrar
+     */
+    public void ladrar(){
+        System.out.println("Guau guau");
     }
 }
