@@ -31,7 +31,23 @@ public class Perro {
      * Función para dormir, aumenta nivel energia
      */
     public void dormir(int horas) {
-        nivelEnergia += 50;
+        if (horas <= 0) {
+            nivelEnergia += 0;
+        } else if (horas >= 1) {
+            nivelEnergia += 5;
+        } else if (horas >= 3) {
+            nivelEnergia += 10;
+        } else if (horas >= 4) {
+            nivelEnergia += 20;
+        } else if (horas >= 5) {
+            nivelEnergia += 40;
+        } else if (horas >= 6) {
+            nivelEnergia += 60;
+        } else if (horas >= 7) {
+            nivelEnergia += 80;
+        } else if (horas >= 8) {
+            nivelEnergia += 100;
+        }
     }
 
     /**
