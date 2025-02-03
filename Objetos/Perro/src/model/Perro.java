@@ -73,4 +73,51 @@ public class Perro {
         nivelEnergia -= 5;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getRaza() {
+        return raza;
+    }
+
+    public void setRaza(String raza) {
+        this.raza = raza;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public float getPeso() {
+        return peso;
+    }
+
+    public void setPeso(float peso) {
+        this.peso = peso;
+    }
+
+    public int getNivelEnergia() {
+        return nivelEnergia;
+    }
+
+    public void setNivelEnergia(int nivelEnergia) {
+        this.nivelEnergia = nivelEnergia;
+    }
+
+    public int getNivelHambre() {
+        return nivelHambre;
+    }
+
+    public void setNivelHambre(int nivelHambre) {
+        this.nivelHambre = nivelHambre;
+    }
 }
