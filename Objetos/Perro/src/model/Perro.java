@@ -106,7 +106,12 @@ public class Perro {
     }
 
     public void setPeso(float peso) {
-        this.peso = peso;
+        if (peso <= 3) {
+            this.peso = 3;
+        }
+        else {
+            this.peso = peso;
+        }
     }
 
     public int getNivelEnergia() {
