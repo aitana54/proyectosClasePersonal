@@ -65,7 +65,12 @@ public class Perro {
         nivelEnergia -= 70;
     }
 
-
-
+    /**
+     * Función darle de comer
+     */
+    public void darComida(String tipo){
+        nivelHambre += 10;
+        nivelEnergia -= 5;
+    }
 
 }
