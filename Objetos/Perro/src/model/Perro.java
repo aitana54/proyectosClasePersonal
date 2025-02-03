@@ -73,6 +73,10 @@ public class Perro {
         nivelEnergia -= 5;
     }
 
+    public void Peso(){
+        peso = 12.1f;
+    }
+
     public String getNombre() {
         return nombre;
     }
